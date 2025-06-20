@@ -1,11 +1,11 @@
 package main
 
 import (
+	"todo-api/config"
 	"todo-api/models"
 	"todo-api/routes"
 
 	"github.com/gin-gonic/gin"
-	"honnef.co/go/tools/config"
 )
 
 func main() {
@@ -18,6 +18,6 @@ func main() {
 
 	routes.SetupRoutes(r)
 
-	r.Run(":8080") // sever starts on http://localhost:8080
+	r.Run(":8787") // sever starts on http://localhost:8080
 
 }

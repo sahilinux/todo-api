@@ -10,5 +10,5 @@ func SetupRoutes(r *gin.Engine) {
 	r.GET("/todos", controllers.GetTodos)
 	r.POST("/todos", controllers.CreateTodo)
 	r.PUT("/todos", controllers.UpdateTodo)
-	r.Delete("/todos", controllers.DeleteTodo)
+	r.DELETE("/todos", controllers.DeleteTodo)
 }

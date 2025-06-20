@@ -4,8 +4,9 @@ import (
 	"net/http"
 	"todo-api/models"
 
+	"todo-api/config"
+
 	"github.com/gin-gonic/gin"
-	"honnef.co/go/tools/config"
 )
 
 // GET /todos
