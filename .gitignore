@@ -1,0 +1,13 @@
+.env
+# Go-specific
+/bin/
+/pkg/
+*.exe
+*.log
+
+# VS Code
+.vscode/
+
+# OS/system
+.DS_Store
+Thumbs.db
